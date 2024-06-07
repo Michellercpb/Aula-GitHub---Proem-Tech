@@ -1,0 +1,45 @@
+.contato {
+    margin: 2em;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 2em;
+}
+.contato__descricao {
+}
+.contato__campo {
+    /* width: 50%; */
+    padding: .8em;
+}
+.contato__campo--select{
+    /* width: 8%; */
+    padding: .5em;
+}
+.contato__botao{
+    /* width: 40%; */
+    padding: 1em;
+    background-color: var(--laranja);
+    border: none;
+    color: var(--branco);
+    letter-spacing: .2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contato__tabela, th, td {
+    border: 1px solid var(--laranja);
+    padding: .8em;
+   
+    width: 20%;
+    text-align: center;
+    
+}
+.contato__tabela{
+   margin-left: 2em;
+}

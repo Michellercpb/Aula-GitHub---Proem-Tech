@@ -1,0 +1,40 @@
+@media(max-width: 768px){
+    #menu{
+       
+        display: block;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .titulo__principal{
+        text-align: center;
+    }
+
+
+    .sobre__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficios__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width: 600px){
+
+}
+
+@media(max-width: 320px){
+
+}

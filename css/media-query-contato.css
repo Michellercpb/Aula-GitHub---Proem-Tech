@@ -1,0 +1,21 @@
+@media(max-width: 768px){
+    #menu{
+       
+        display: block;
+    }
+
+    .nav ul{
+        display: none;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+
+
+}
+

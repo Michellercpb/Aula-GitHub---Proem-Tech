@@ -1,0 +1,14 @@
+@import url(home.css);
+@import url(servicos.css);
+@import url(contato.css);
+:root{
+    --fundo:#020202;
+    --branco:#ffffff;
+    --laranja:#c78c19;
+
+}
+body{
+    background-color: var(--fundo);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+}
